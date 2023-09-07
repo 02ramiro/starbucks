@@ -167,3 +167,81 @@ img {
     font-weight:bolder;
     cursor: pointer;
 }
+
+.cards__card {
+    background-color: #126236;
+    margin-top: 45px;
+    color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    width: 85%;
+}
+
+.cards {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__card-img {
+    width: 100%;
+}
+
+.cards__card-titulo {
+    color:#ffffff;
+}
+
+.cards__card-titulo span {
+    color: yellow;
+}
+
+.cards__card-container-text {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards__card-container-button,
+.cards__card-container-button-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.cards__card-button {
+    background-color: inherit;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color:#ffffff;
+    width: 150px;
+    padding: 5px;
+    transition: all 0.5s;
+    margin: 10px 0px;
+}
+
+.cards__card-button:hover {
+    background-color: yellow;
+    border: 1px solid #000000;
+    color: #000;
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+.cards__card-circle {
+    background-color: yellow;
+    color: #000;
+    width: 65px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
