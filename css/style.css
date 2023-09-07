@@ -46,3 +46,31 @@ img {
 .header__container-login {
     display: none;
 }
+
+.main__container-logo {
+    display: none;
+}
+
+.main {
+    margin-top: 80px;
+    padding: 15px;
+}
+
+.main__container-titulo-parrafo {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__titulo {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.main__parrafo {
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.main__titulo span {
+    color: #126236;
+}
